@@ -1,0 +1,32 @@
+Metadata-Version: 2.2
+Name: my-pyside6-dashboard
+Version: 0.1.0
+Summary: A PySide6 dashboard with various UI components
+Home-page: https://github.com/tuanhpham/my-pyside6-dashboard.git
+Author: Your Name
+Author-email: youremail@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PySide6
+Requires-Dist: pytest
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# my-pyside6-dashboard
+
+Project description here.
+
+# to make components available in virtual environment
+pip install -e . 

@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+src/dashboard_components/__init__.py
+src/dashboard_components/icon.py
+src/dashboard_components/navbar.py
+src/dashboard_components/sidegrip.py
+src/dashboard_components/style.py
+src/dashboard_components/titlebar.py
+src/my_pyside6_dashboard.egg-info/PKG-INFO
+src/my_pyside6_dashboard.egg-info/SOURCES.txt
+src/my_pyside6_dashboard.egg-info/dependency_links.txt
+src/my_pyside6_dashboard.egg-info/requires.txt
+src/my_pyside6_dashboard.egg-info/top_level.txt
+tests/test_main.py
