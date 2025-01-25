@@ -1,4 +1,9 @@
+iniconfig==2.0.0
+-e git+https://github.com/tuanhpham/my-pyside6-dashboard.git@328f530eccbf9bf2ed9e0cb391523dba9e9314b0#egg=my_pyside6_dashboard
+packaging==24.2
+pluggy==1.5.0
 PySide6==6.8.1.1
 PySide6_Addons==6.8.1.1
 PySide6_Essentials==6.8.1.1
+pytest==8.3.4
 shiboken6==6.8.1.1
