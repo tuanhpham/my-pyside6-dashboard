@@ -80,6 +80,8 @@ class MainWindow(QMainWindow):
     def toggle_mode(self) -> None:
         """Toggle the mode and update all components."""
         self.style_manager.toggle_mode()
+        print(self.style_manager.current_mode)
+        print(self.icon_manager.icon_fill)
         self.icon_manager.set_icon_fill("#FFFFFF" if self.style_manager.current_mode == "dark" else "#000000")
         self.navigationContentWidget.refresh_icons()
         self.titleBar.refresh_icons()

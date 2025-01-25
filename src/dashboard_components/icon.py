@@ -56,7 +56,7 @@ class SVGIconManager:
         """Set the fill color for icons."""
         self.icon_fill = color
 
-    def render_icon(self, icon_name: str, size: int) -> Optional[QPixmap]:
+    def render_icon(self, icon_name: str, size=16, class_name="bi") -> Optional[QPixmap]:
         """Render an icon to a QPixmap."""
         svg_template = self.get_icon(icon_name)
         if not svg_template:
@@ -214,9 +214,8 @@ class SVGTemplateGenerator(QWidget):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    icon_file = "icons.txt"
-    icon_manager = SVGIconManager(icon_file)
     style_manager = StyleManager()
+    icon_manager = SVGIconManager()
     window = SVGTemplateGenerator(icon_manager, style_manager)
     window.show()
     sys.exit(app.exec())
